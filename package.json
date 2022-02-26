@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "mkdir dist || rm -r dist && parcel index.html",
+    "build": "mkdir dist || rm -r dist && parcel build index.html --public-url ./",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "parcel": "^2.3.2",
+    "stylelint": "^14.5.3",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-scss": "^4.1.0"
+  }
+}
