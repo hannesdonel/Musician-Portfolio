@@ -27,22 +27,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.scss" />
   </head>
 
   <body>
     <main id="videos">
       <section class="video__container">
+        <!-- Hannes Donel Trio Video -->
         <iframe
           class="video"
-          src="https://www.youtube.com/embed/HrmKFzokv7o?controls=0"
-          title="Schimmerling - Zimmer"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          src="https://player.vimeo.com/video/211927563?h=976127372b&color=ffffff&title=0&byline=0&portrait=0"
+          frameborder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
           allowfullscreen
         ></iframe>
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </section>
     </main>
   </body>
 
-  <footer id="footer"></footer>
+  <footer id="footer">
+    <p>© 2022 Hannes Donel</p>
+    <button type="button" class="link">
+      <a href="./impressum.html">Impressum</a>
+    </button>
+    <span class="separator">|</span>
+    <button type="button" class="link">
+      <a href="./datenschutz.html">Datenschutz</a>
+    </button>
+  </footer>
 </html>

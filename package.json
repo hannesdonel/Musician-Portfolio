@@ -5,6 +5,7 @@
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
     "gh-pages": "^3.2.3",
     "parcel": "^2.3.2",
     "stylelint": "^14.5.3",
